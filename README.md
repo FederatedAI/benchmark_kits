@@ -1,16 +1,27 @@
 # benchmark_kits
 
-## 1. Large-scale Dataset
 
-### 1.1 Dataset
+## 1. Starndard Test
 
-[LIBSVM epsilon](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/epsilon_normalized.bz2)
+- 1 guest, 1 host
 
-- 400k*2k dimensions
-- 30 parties 
+- [dsl](./standard/dsl)
 
-## 2. Starndard Dataset
+- dataset [epsilon_5k](https://github.com/FederatedAI/FATE/blob/master/examples/data/epsilon_5k_hetero_guest.csv)
 
-### 2.1 Dataset
+## 2. Large-scale Test
 
-[epsilon_5k](./standard_dataset/dataset/)
+- 1 guest, 1 host
+
+- sample with replacement, extend the original dataset [LIBSVM epsilon](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/epsilon_normalized.bz2) to 1m*2k(dimensions) 
+
+- [dsl](./large_scale/dsl)
+
+## 3. Multi-host Test
+
+- 1 guest, 30 hosts 
+
+- [dsl](./multi_host/dsl)
+
+- dataset [epsilon_5k](https://github.com/FederatedAI/FATE/blob/master/examples/data/epsilon_5k_hetero_guest.csv)
+
