@@ -14,9 +14,9 @@ The current LTS release of FATE is v1.5.0. All the releases are available [here]
 
 - 1 guest, 1 host
 
-- [dsl](./standard/dsl)
-
 - dataset [epsilon_5k](https://github.com/FederatedAI/FATE/blob/master/examples/data/epsilon_5k_hetero_guest.csv)
+
+- [dsl](./standard/dsl)
 
 ### Large-scale Dataset
 
@@ -30,9 +30,9 @@ The current LTS release of FATE is v1.5.0. All the releases are available [here]
 
 - 1 guest, 30 hosts 
 
-- [dsl](./multi_host/dsl)
-
 - dataset [epsilon_5k](https://github.com/FederatedAI/FATE/blob/master/examples/data/epsilon_5k_hetero_guest.csv)
+
+- [dsl](./multi_host/dsl)
 
 
 
