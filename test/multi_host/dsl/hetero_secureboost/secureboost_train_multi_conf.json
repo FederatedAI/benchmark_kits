@@ -1,0 +1,121 @@
+{
+    "initiator": {
+        "role": "guest",
+        "party_id": 10021
+    },
+    "role": {
+        "guest": [
+            10021
+        ],
+        "host": [
+            10001,
+            10002,
+            10003,
+            10004,
+            10005,
+            10006,
+            10007,
+            10008,
+            10009,
+            10010,
+            10011,
+            10012,
+            10013,
+            10014,
+            10015,
+            10016,
+            10017,
+            10018,
+            10019,
+            10020,
+            10021,
+            10022,
+            10023,
+            10024,
+            10025,
+            10026,
+            10027,
+            10028,
+            10029,
+            10030
+        ],
+        "arbiter": [
+            10021
+        ]
+    },
+    "job_parameters": {
+        "job_type": "train",
+        "work_mode": 1,
+        "backend": 0,
+        "dsl_version": 2
+    },
+    "role_parameters": {
+        "host": {
+            "0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29": {
+                "reader_0": {
+                    "table": {
+                        "name": "epsilon_host",
+                        "namespace": "experiment"
+                    }
+                },
+                "dataio_0": {
+                    "with_label": false
+                },
+                "reader_1": {
+                    "table": {
+                        "name": "epsilon_host",
+                        "namespace": "experiment"
+                    }
+                },
+                "dataio_1": {
+                    "with_label": false
+                }
+            }
+        },
+        "guest": {
+            "0": {
+                "reader_0": {
+                    "table": {
+                        "name": "epsilon_guest",
+                        "namespace": "experiment"
+                    }
+                },
+                "dataio_0": {
+                    "with_label": true,
+                    "output_format": "dense"
+                },
+                "reader_1": {
+                    "table": {
+                        "name": "epsilon_guest",
+                        "namespace": "experiment"
+                    }
+                },
+                "dataio_1": {
+                    "with_label": true,
+                    "output_format": "dense"
+                }
+            }
+        }
+    },
+    "algorithm_parameters": {
+        "hetero_secure_boost_0": {
+            "task_type": "classification",
+            "objective_param": {
+                "objective": "cross_entropy"
+            },
+            "learning_rate": 0.1,
+            "num_trees": 20,
+            "bin_num": 16,
+            "validation_freqs": 1,
+            "encrypt_param": {
+                "method": "iterativeAffine"
+            },
+            "tree_param": {
+                "max_depth": 3
+            }
+        },
+        "evaluation_0": {
+            "eval_type": "binary"
+        }
+    }
+}
