@@ -34,7 +34,6 @@ To get started perfroming all the tests you'll need to first deploy  [FATE 1.5.0
 | Exchange    |CentOS 7.2           | 4C8G               | 100G    | 100M |
 | Guest       |CentOS 7.2           | 16C32G             | 500G    | 100M |
 | Host        |CentOS 7.2           | 16C32G             | 500G    | 100M |
-|
 
 </center>
 
@@ -44,7 +43,7 @@ To get started perfroming all the tests you'll need to first deploy  [FATE 1.5.0
 
    * 1 guest, 1 host
 
-   * [epsilon_5k](https://github.com/FederatedAI/FATE/blob/master/examples/data/epsilon_5k_hetero_guest.csv)
+   * [5k*200 dataset](https://github.com/FederatedAI/FATE/blob/master/examples/data/epsilon_5k_hetero_guest.csv)
 
    2） Large-scale Dataset
 
@@ -56,6 +55,6 @@ To get started perfroming all the tests you'll need to first deploy  [FATE 1.5.0
 
    * 1 guest, 30 hosts 
 
-   * [epsilon_5k(Modified)](https://github.com/FederatedAI/FATE/blob/master/examples/data/epsilon_5k_hetero_guest.csv)
+   * [5k*200 dataset(modified)](https://github.com/FederatedAI/FATE/blob/master/examples/data/epsilon_5k_hetero_guest.csv)
 
 
