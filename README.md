@@ -45,16 +45,22 @@ To get started perfroming all the tests you'll need to first deploy  [FATE 1.5.0
 
    * [5k*200 dataset](https://github.com/FederatedAI/FATE/blob/master/examples/data/epsilon_5k_hetero_guest.csv)
 
+   * [dsl&conf](./test/standard)
+
    2） Large-scale Dataset
 
    * 1 guest, 1 host
 
    * [1m*2k dataset](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/epsilon_normalized.bz2)
 
+   * [dsl&conf](./test/large_scale)
+
    3）Multi-host Federated
 
    * 1 guest, 30 hosts 
 
    * [5k*200 dataset(modified)](https://github.com/FederatedAI/FATE/blob/master/examples/data/epsilon_5k_hetero_guest.csv)
+
+   * [dsl&conf](./test/multi_host)
 
 
