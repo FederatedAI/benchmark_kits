@@ -1,7 +1,7 @@
 # Benchmark Kits
 This benchmark kits is a test suite designed to provides representative performance measures across three common scenarios of [FATE 1.5.0 (LTS)](https://github.com/FederatedAI/FATE/).
 
-To learn more and see the results of our tests, please refer to our official report [FATE 1.5.0 (LTS) performance test](https://github.com/FederatedAI/FATE/tree/master/doc/FATE_v1.5_PERF.pdf). For descriptions of the test types that we run, see the 
+To learn more and see the results of our tests please refer to our official report [FATE 1.5.0 (LTS) performance test](https://github.com/FederatedAI/FATE/tree/master/doc/FATE_v1.5_PERF.pdf). For descriptions of the test types that we run, see the 
 [highlights section](##Highlights) below.
 
 The current LTS release of FATE is v1.5.0. All the releases are available [here](https://github.com/FederatedAI/FATE/releases). 
