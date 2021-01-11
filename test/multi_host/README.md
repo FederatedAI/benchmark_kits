@@ -19,5 +19,5 @@
 | Role     | Amount | Operating System    | Host Configuration | Storage     | Deployment Module |
 | -------- | ------ | ------------------- | ------------------ | ------- | -------- |
 | Exchange | 1 | CentOS 7.2          | 4C8G              | 100G    | Exchange |
-| Host | 30 | CentOS 7.2          | 4C8G              | 100G    | clustermanager, nodemanger, rollsite, fate_flow, fateboard, mysql |
-| Guest | 1 | CentOS 7.2          | 4C8G              | 100G    |clustermanager, nodemanger, rollsite, fate_flow, fateboard, mysql |
+| Host | 30 | CentOS 7.2          | 16C32G              | 500G    | clustermanager, nodemanger, rollsite, fate_flow, fateboard, mysql |
+| Guest | 1 | CentOS 7.2           | 16C32G              | 500G    | clustermanager, nodemanger, rollsite, fate_flow, fateboard, mysql |

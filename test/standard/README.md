@@ -1,4 +1,4 @@
-# benchmark_kits
+# Standard-size Dataset
 
 
 ## Dataset
@@ -19,23 +19,23 @@
 - ### exchange
 | Ip Address                    | Operating System    | Host Configuration | Storage | Deployment Module                                            |
 | ----------------------------- | ------------------- | ------------------ | ------- | ------------------------------------------------------------ |
-| 192.168.1.1 | CentOS 7.2          | 4C8G              | 100G    | rollsite
+| 192.168.1.1 | CentOS 7.2          | 4C8G              | 100G    | Exchange
 
 
 - ### host
 
 | Ip Address                    | Operating System    | Host Configuration | Storage | Deployment Module                                            |
 | ----------------------------- | ------------------- | ------------------ | ------- | ------------------------------------------------------------ |
-| 192.168.0.1 | CentOS 7.2          | 16C32G              | 500G    | clustermanager，rollsite，mysql |
-| 192.168.0.2 | CentOS 7.2          | 16C32G              | 500G    | fate_flow，fateboard |
-| 192.168.0.3 - 192.168.0.20 | CentOS 7.2          | 16C32G              | 500G    | nodemanger |
+| 192.168.0.1 | CentOS 7.2          | 16C32G              | 500G    | clustermanager, rollsite, mysql |
+| 192.168.0.2 | CentOS 7.2          | 16C32G              | 500G    | fate_flow, fateboard |
+| 192.168.0.3 | CentOS 7.2          | 16C32G              | 500G    | nodemanger |
 
 
 - ### guest
 
 | Ip Address                    | Operating System    | Host Configuration | Storage | Deployment Module                                            |
 | ----------------------------- | ------------------- | ------------------ | ------- | ------------------------------------------------------------ |
-| 192.168.0.21 | CentOS 7.2          | 16C32G              | 500G    | clustermanager，rollsite，mysql |
-| 192.168.0.22 | CentOS 7.2          | 16C32G              | 500G    | fate_flow，fateboard |
-| 192.168.0.23 -192.168.0.40 | CentOS 7.2          | 16C32G              | 500G    | nodemanger |
+| 192.168.0.21 | CentOS 7.2          | 16C32G              | 500G    | clustermanager, rollsite, mysql |
+| 192.168.0.22 | CentOS 7.2          | 16C32G              | 500G    | fate_flow, fateboard |
+| 192.168.0.23 | CentOS 7.2          | 16C32G              | 500G    | nodemanger |
 
