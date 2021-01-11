@@ -1,5 +1,5 @@
 # Benchmark Kits
-This benchmark kits is a test suite designed to provides representative performance measures of [FATE 1.5.0 (LTS)](https://github.com/FederatedAI/FATE/) across three different scenarios .
+This benchmark kits is a test suite designed to provides representative performance measures of [FATE 1.5.0 (LTS)](https://github.com/FederatedAI/FATE/) across three different usage scenarios .
 
 To learn more and see the results of our tests please refer to our official report [FATE 1.5.0 (LTS) performance test](https://github.com/FederatedAI/FATE/tree/master/doc/FATE_v1.5_PERF.pdf) for all the details. For descriptions of the test types that we run, see the 
 [highlights section](##Highlights) below.
