@@ -31,7 +31,7 @@
 
 
 
-## Result
+## Performance
 
 
 | Algorithm | Time     |  AUC   |  KS   | Precision  | recall |
