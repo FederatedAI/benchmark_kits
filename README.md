@@ -23,7 +23,6 @@ To get started perfroming all the tests you'll need to first deploy  [FATE 1.5.0
         $ python ${your_install_path}/fate_flow/fate_flow_client.py -f submit_job -d ${dsl} -c ${conf}
 
 ## Highlights
----
 1) ### System Requirement
 
 <center>
