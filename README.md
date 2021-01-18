@@ -11,7 +11,7 @@ The current LTS release of FATE is v1.5.0. All the releases are available [here]
 ---
 To get started perfroming all the tests you'll need to first deploy  [FATE 1.5.0 (LTS)](https://github.com/FederatedAI/FATE/tree/master/cluster-deploy).
 
-1. Clone repo.
+1. Clone repo
 
         $ git clone git@github.com:FederatedAI/benchmark_kits.git
 
@@ -19,7 +19,7 @@ To get started perfroming all the tests you'll need to first deploy  [FATE 1.5.0
 
         $ cd benchmark_kits/{one_of_the_three_test}/dsl
 
-3. Submit test jobs by fateflow client.
+3. Submit test jobs by fateflow client
 
         $ python ${your_install_path}/fate_flow/fate_flow_client.py -f submit_job -d ${dsl} -c ${conf}
 

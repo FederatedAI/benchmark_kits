@@ -26,3 +26,17 @@
 | Guest | 1 | CentOS 7.2         | 16C32G              | 500G    | fate_flow, fateboard |  
 | Guest | 18 | CentOS 7.2        | 16C32G              | 500G    | nodemanger |
 
+
+
+
+
+
+## Result
+
+
+| Algorithm | Time     |  AUC   |  KS   | Precision  | recall |
+| --------  | -------- | ----   | ----  | ------     | ------ |
+| HeteroLR  | 13:36:28 |  0.769 | 0.381 | 0.788      |  0.789 |
+| HomoLR    |  0:33:56 |  0.783 | 0.395 | 0.687      |  0.688 |
+| HeteroSBT | 42:35:27 |  0.654 | 0.357 | 0.776      |  0.777 |
+| HomoSBT   | 09:08:40 |  0.631 | 0.343 | 0.696      |  0.695 |
