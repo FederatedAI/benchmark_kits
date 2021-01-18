@@ -8,7 +8,6 @@ The current LTS release of FATE is v1.5.0. All the releases are available [here]
 
 
 ## Quick Start Guide
----
 To get started perfroming all the tests you'll need to first deploy  [FATE 1.5.0 (LTS)](https://github.com/FederatedAI/FATE/tree/master/cluster-deploy).
 
 1. Clone repo
