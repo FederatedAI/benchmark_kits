@@ -34,7 +34,7 @@
 ## Performance
 
 
-| Algorithm | Time     |  AUC   |  KS   | Precision  | recall |
+| Algorithm | Time     |  AUC   |  KS   | Precision  | Recall |
 | --------  | -------- | ----   | ----  | ------     | ------ |
 | HeteroLR  | 13:36:28 |  0.769 | 0.381 | 0.788      |  0.789 |
 | HomoLR    |  0:33:56 |  0.783 | 0.395 | 0.687      |  0.688 |
